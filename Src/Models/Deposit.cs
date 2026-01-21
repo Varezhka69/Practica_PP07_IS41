@@ -4,7 +4,7 @@ public class Deposit
 {
     public int Id { get; set; }
     public int UserId { get; set; }
-    public string DepositType { get; set; } = string.Empty; // Сберегательный, Накопительный
+    public string DepositType { get; set; } = string.Empty;
     public decimal Amount { get; set; }
     public decimal InterestRate { get; set; }
     public DateTime OpenDate { get; set; }
