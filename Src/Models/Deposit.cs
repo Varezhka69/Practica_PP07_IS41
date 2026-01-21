@@ -9,6 +9,6 @@ public class Deposit
     public decimal InterestRate { get; set; }
     public DateTime OpenDate { get; set; }
     public DateTime? CloseDate { get; set; }
-    public string Status { get; set; } = "Active"; // Active, Closed
+    public string Status { get; set; } = "Active";
     public decimal CurrentBalance { get; set; }
 }
